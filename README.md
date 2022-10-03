@@ -16,7 +16,7 @@
 
 ### **_How to get started_**
 
-I have linked my trello in which I list out in detail how I will go about building this game.
+I have linked my trello in which I list out in detail how I will go about building this game. First I plan to add the HTML and CSS so I can visually see the game. Then I want to figure out the game logic that will make the game run.
 
 ####
 
@@ -44,10 +44,7 @@ I have linked my trello in which I list out in detail how I will go about buildi
 
 ### **_Future Updates_**
 
-- [ ] Is a programmer?
-- [ ] Learned to code?
-- [x] Started GA Bootcamp?
-- [x] ~~Is stressed?~~
+- [ ] Will make it better as my skills improve
 
 ---
 
