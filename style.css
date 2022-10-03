@@ -1,5 +1,12 @@
 .gameboard {
-  width:900px;
-  height:900px;
+  margin: 0;
+  width: 900px;
+  height: 600px;
 background-color: #466D1D;
+
+display: grid;
+grid-template-columns:1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr ;
+place-items: center;
+
 }
