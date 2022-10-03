@@ -2,7 +2,7 @@
 
 ## Date:10/02/2022
 
-### By:Kathya Castaneda
+### By: Kathya Castaneda
 
 [Trello](https://trello.com/b/cGPfrdop/whac-a-mole)
 
