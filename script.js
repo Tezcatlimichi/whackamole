@@ -1,7 +1,7 @@
 let startButton = document.getElementById('startBtn')
 
 let moles = document.querySelectorAll('.mole')
-
+let randomMole
 let score = 0
 //let counter = 0
 
@@ -10,11 +10,17 @@ let start = () => {
     mole.style.visibility = 'hidden'
   })
   let popOut = () => {
+    let previousMole = randomMole
+    if (previousMole) {
+      previousMole.style.visibility = 'hidden'
+      console.log('This is the previous mole', previousMole)
+    }
     const randomNum = Math.floor(Math.random() * moles.length)
-    const randomMole = moles[randomNum]
+    randomMole = moles[randomNum]
     randomMole.style.visibility = ''
+    console.log(randomMole)
   }
-  setInterval(popOut, 1000)
+  setInterval(popOut, 2000)
 }
 startButton.addEventListener('click', start)
 
