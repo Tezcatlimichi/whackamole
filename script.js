@@ -26,11 +26,11 @@ moles.forEach((mole) => {
   }
   mole.addEventListener('click', whac)
 })
-// let checkForWinner = () => {
-//   if (score === 100) {
-//     document.querySelector('h1')
-//   }
-// }
+let checkForWinner = () => {
+  if (score === 100) {
+    document.querySelector('h1').innerText = 'WINNER'
+  }
+}
 // if ((randomMole.style.visibility = '')) {
 //   let popIn = () => {
 //     randomMole.style.visibility = 'hidden'
