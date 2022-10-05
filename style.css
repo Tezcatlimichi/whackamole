@@ -3,6 +3,7 @@
   width: 900px;
   height: 600px;
 background-color: #466D1D;
+cursor: pointer;
 
 display: grid;
 grid-template-columns:1fr 1fr 1fr 1fr;

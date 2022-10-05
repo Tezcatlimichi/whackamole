@@ -2,8 +2,8 @@ let startButton = document.getElementById('startBtn')
 
 let moles = document.querySelectorAll('.mole')
 let randomMole
+let interval
 let score = 0
-//let counter = 0
 
 let start = () => {
   moles.forEach((mole) => {
@@ -13,14 +13,12 @@ let start = () => {
     let previousMole = randomMole
     if (previousMole) {
       previousMole.style.visibility = 'hidden'
-      console.log('This is the previous mole', previousMole)
     }
     const randomNum = Math.floor(Math.random() * moles.length)
     randomMole = moles[randomNum]
     randomMole.style.visibility = ''
-    console.log(randomMole)
   }
-  setInterval(popOut, 2000)
+  interval = setInterval(popOut, 1000)
 }
 startButton.addEventListener('click', start)
 
@@ -35,17 +33,13 @@ moles.forEach((mole) => {
 let checkForWinner = () => {
   if (score === 100) {
     document.querySelector('h1').innerText = 'WINNER'
+    clearInterval(interval)
+    stop()
   }
 }
-// if ((randomMole.style.visibility = '')) {
-//   let popIn = () => {
-//     randomMole.style.visibility = 'hidden'
-//   }
-//   setInterval(popIn, 1000)
-// }
-
-// counter++
-// console.log(counter)
-// if (counter === 3 && randomMole.style.visibility === "") {
-//   randomMole.style.visibility = 'hidden'
-//}
+const stop = () => {
+  moles.forEach((mole) => {
+    mole.style.visibility = ''
+    document.querySelector('.gameboard').style.pointerEvents = 'none'
+  })
+}
