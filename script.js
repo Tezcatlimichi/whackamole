@@ -1,5 +1,5 @@
 let startButton = document.getElementById('startBtn')
-
+let restartButton = document.getElementById('restartBtn')
 let moles = document.querySelectorAll('.mole')
 let randomMole
 let interval
@@ -43,3 +43,4 @@ const stop = () => {
     document.querySelector('.gameboard').style.pointerEvents = 'none'
   })
 }
+restartButton.addEventListener('click', restart)
