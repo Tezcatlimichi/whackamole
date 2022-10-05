@@ -34,6 +34,7 @@ let checkForWinner = () => {
   if (score === 100) {
     document.querySelector('h1').innerText = 'WINNER'
     clearInterval(interval)
+    document.querySelector('.gameboard').style.pointerEvents = 'none'
     stop()
   }
 }
@@ -42,5 +43,14 @@ const stop = () => {
     mole.style.visibility = ''
     document.querySelector('.gameboard').style.pointerEvents = 'none'
   })
+}
+
+let restart = () => {
+  console.log('works')
+  score = 0
+  document.querySelector('h3').innerText = score
+  document.querySelector('h1').innerText = 'Whack-A-Mole!'
+  document.querySelector('.gameboard').style.pointerEvents = 'auto'
+  start()
 }
 restartButton.addEventListener('click', restart)
