@@ -1,0 +1,8 @@
+*{
+  background-color: black;
+  cursor: pointer;
+}
+h1,h2,#start{
+  color: aqua;
+  font-family: "Peralta";
+}
