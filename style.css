@@ -3,7 +3,8 @@
   width: 900px;
   height: 600px;
 background-color: #466D1D;
-cursor: pointer;
+cursor:url("https://imgur.com/dultgKm.png"),auto;
+  
 
 display: grid;
 grid-template-columns:1fr 1fr 1fr 1fr;
