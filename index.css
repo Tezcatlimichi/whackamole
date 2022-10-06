@@ -12,6 +12,7 @@ h1{
 }
 h2,h3{
   animation: flicker 1.5s infinite alternate; 
+  font-size:30px;
 }
 .neonText {
   color: #fff;
@@ -46,4 +47,18 @@ button {
   background-size: cover;
   width: 300px;
   height: 220px;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 
+  0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem #e6cc00,
+  0 0 0.8rem #e6cc00,
+  0 0 2.8rem #e6cc00,
+  inset 0 0 1.3rem #e6cc00;
+  margin: auto
+}
+.button{
+  text-align: center;
 }
