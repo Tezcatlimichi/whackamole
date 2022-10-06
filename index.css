@@ -2,8 +2,25 @@
   background-color: black;
   cursor: pointer;
 }
-h1,h2,#start{
-  color: aqua;
-  font-family: "Peralta";
+h1,h2{
+  font-family: "Gemunu Libre";
   text-align:center;
+}
+#start{
+  color:aqua;
+}
+h1{
+  font-size: 50px;
+}
+.neonText {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #0fa,
+      0 0 82px #0fa,
+      0 0 92px #0fa,
+      0 0 102px #0fa,
+      0 0 151px #0fa;
 }
