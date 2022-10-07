@@ -51,3 +51,15 @@ I have linked my trello in which I list out in detail how I will go about buildi
 ### **_Credits_**
 
 #### **Images**: [DuckDuckGo Search](https://duckduckgo.com/)
+
+#### **Neon & Flickering Effecr**: [CSS TRICKS](https://css-tricks.com/how-to-create-neon-text-with-css/)
+
+#### **Hidden Property**: [MDM WEB DOCS](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden)
+
+#### **Visibility Property**: [W3 SCHOOLS](https://www.w3schools.com/jsref/prop_style_visibility.asp)
+
+#### **SetInterval**: [MDM WEB DOCS](https://developer.mozilla.org/en-US/docs/Web/API/setInterval)
+
+#### **CUSTOM MOUSE CURSOR**: [FREE CODE CAMP](https://www.freecodecamp.org/news/how-to-make-a-custom-mouse-cursor-with-css-and-javascript/)
+
+#### **BUTTON IMAGE**: [GEEKSFORGEEKS](https://www.geeksforgeeks.org/how-to-change-an-input-button-image-using-css/#:~:text=The%20default%20button%20in%20HTML,show%20only%20the%20image%20itself.)
