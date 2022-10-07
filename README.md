@@ -52,7 +52,7 @@ I have linked my trello in which I list out in detail how I will go about buildi
 
 #### **Images**: [DuckDuckGo Search](https://duckduckgo.com/)
 
-#### **Neon & Flickering Effecr**: [CSS TRICKS](https://css-tricks.com/how-to-create-neon-text-with-css/)
+#### **Neon & Flickering Effect**: [CSS TRICKS](https://css-tricks.com/how-to-create-neon-text-with-css/)
 
 #### **Hidden Property**: [MDM WEB DOCS](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/hidden)
 
