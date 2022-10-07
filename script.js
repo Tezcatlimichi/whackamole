@@ -8,6 +8,7 @@ let score = 0
 let start = () => {
   moles.forEach((mole) => {
     mole.style.visibility = 'hidden'
+    document.querySelector('.restart').style.visibility = 'hidden'
   })
   let popOut = () => {
     let previousMole = randomMole
@@ -42,6 +43,8 @@ const stop = () => {
   moles.forEach((mole) => {
     mole.style.visibility = ''
     document.querySelector('.gameboard').style.pointerEvents = 'none'
+    document.querySelector('.restart').style.visibility = ''
+    document.querySelector('.begin').style.visibility = 'hidden'
   })
 }
 
