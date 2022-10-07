@@ -53,5 +53,20 @@ h1{
   text-align: center;
 }
 h2,h3{
-  color:aquamarine
+  color: yellow;
+  font-size: 30px;
+}
+.restart{
+  color: red;
+  border: 0.2rem solid #fff;
+  border-radius: 2rem;
+  padding: 0.4em;
+  box-shadow: 
+  0 0 .2rem #fff,
+  0 0 .2rem #fff,
+  0 0 2rem red,
+  0 0 0.8rem red,
+  0 0 2.8rem red,
+  inset 0 0 1.3rem red;
+  margin: auto
 }
